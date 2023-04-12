@@ -1,0 +1,82 @@
+    /* Estilos generales */
+    body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #FFFACD;
+    margin: 0;
+    padding: 0;
+    }
+
+    h1,
+    p {
+    text-align: center;
+    }
+
+    /* Estilos para la tabla */
+    table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    }
+
+    .celda {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #333;
+    }
+
+    .celda:focus {
+    outline: none;
+    background-color: #FFDAB9;
+    }
+    .celda:hover {
+    background-color: #FFDAB9;
+    }
+
+    /* Estilos para el botón */
+    button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #006699;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+    background-color: #004466;
+    }
+
+    button:active {
+    background-color: #003366;
+    }
+
+    /* Estilos para la alerta */
+    .alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    }
+
+    .alert h2 {
+    margin-top: 0;
+    }
+
+    .alert p {
+    margin-bottom: 0;
+    }
+
+    .alert button {
+    margin-top: 10px;
+    }
