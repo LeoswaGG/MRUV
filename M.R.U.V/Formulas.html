@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.R.U.V</title>
+</head>
+<body>
+    <div class="formulas">
+    <h1>Calculadora del M.R.U.V</h1>
+    <p>Introduce los valores conocidos del M.R.U.V:</p> 
+    <form> 
+        <label for="vo"> Velocidad Inicial (vo) <input type="number" id="vo" name="vo" /> m/s </label> 
+        <label for="vf"> Velocidad Final   (vf) <input type="number" id="vf" name="vf" /> m/s </label>
+        <label for="t">Tiempo (t)               <input type="number" id="t"  name="t"> s      </label>
+        <label for="a">Aceleración (a)          <input type="number" id="a"  name="a"> m/s²   </label>
+        <label for="d">Distancia (d)            <input type="number" id="d"  name="d">   m    </label>
+        <button type="button" onclick="calcular()"> Calcular </button>
+    </form>
+    <p>Valores Calculados:</p>
+    <p>Velocidad Inicial (vo): <span id="resultado_vo"></span> m/s </p> 
+    <p>Velocidad Final (vf): <span id="resultado_vf"></span> m/s </p>
+    <p>Tiempo (t): <span id="resultado_t"></span> s </p>  
+    <p>Aceleración (a): <span id="resultado_a"></span> m/s² </p> 
+    <p>Distancia (d): <span id="resultado_d"></span> m </p> 
+    </div>
+    <div class="unidades">
+        <h1>Conversores de unidades</h1>
+        <h2>Coversor de km/h a m/s</h2>
+        <label for="velocidad_km">Velocidad en km/h: <input type="text" id="velocidad_km" name="velocidad_km"> <button onclick="convertirVelocidad()">Convertir</button></label>
+        <p id="resultado_velocidad"></p>
+
+        <h2>Coversor de minutos a segundos</h2>
+        <label for="minutos">Minutos: <input type="text" id="minutos" name="minutos"> <button onclick="convertirMinutos()">Convertir</button></label>
+        <p id="resultado_minutos"></p>
+
+        <h2>Coversor de km a m</h2>
+        <label for="distancia">Distancia en km: <input type="text" id="distancia" name="distancia"> <button onclick="convertirKm()">Convertir</button></label>
+        <p id="resultado_distancia"></p>
+    </div>
+    <script src="interacion.js"></script>    
+</body>
+</html>
