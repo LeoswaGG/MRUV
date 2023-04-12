@@ -1,0 +1,27 @@
+label
+{
+    display: block;
+    margin: 0.5rem 0;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+
+}
+input
+{
+    border-radius: 10px;
+    border-color: lime;
+}
+button
+{
+    background-color: aqua;
+}
+div
+{
+    width: 600px;
+    height: 600px;
+    background-color: #e55137 ;
+}
