@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Verificar si un número es primo</title>
+    </head>
+    <body>
+    <h1>Verificar si un número es primo</h1>
+    <p>Ingrese un número entero positivo para determinar si es un número primo:</p>
+    <input type="number" id="numero">
+    <button onclick="verificarPrimo()">Verificar</button>
+    <p id="resultado"></p>
+    <script>
+        function esPrimo(numero) {
+        // Código de la función esPrimo del ejemplo anterior
+        } 
+
+        function verificarPrimo() {
+        const numero = parseInt(document.getElementById("numero").value);
+        const resultado = document.getElementById("resultado");
+        if (esPrimo(numero)) {
+            resultado.innerText = `${numero} es un número primo`;
+        } else {
+            resultado.innerText = `${numero} no es un número primo`;
+        }
+        }
+        </script>
+    </body>
+</html>
