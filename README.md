@@ -6,8 +6,13 @@
 - [Uso](#uso) 
 
 ## Descripción
-El proyecto **"MRUV"** consistió en la **creación de una página web con el objetivo de aprender física y que calculara el MRUV**, específicamente el Movimiento Rectilíneo Uniformemente Variado (MRUV). El proyecto lo hice como parte de un desafío de clase asignado durante mi etapa de preparatoria. La página web fue alojada en el siguiente enlace: **https://cbtis202.armsoluciones.com/Formulas.html**
+Este repositorio contiene una **calculadora interactiva del Movimiento Rectilíneo Uniformemente Variado (MRUV) y diversos conversores de unidades relacionados con la física**. La calculadora MRUV **permite resolver problemas de MRUV ingresando los datos conocidos**, como la velocidad inicial, velocidad final, tiempo, aceleración y distancia, y calcular el valor desconocido. Además, **se incluyen conversores de unidades que permiten transformar valores entre diferentes unidades de medida, como de kilómetros por hora a metros por segundo o de minutos a segundos**.
 
+El proyecto está implementado en una página web, lo que facilita su acceso y uso en cualquier dispositivo con conexión a internet. La interfaz de usuario es sencilla e intuitiva, lo que permite a estudiantes y entusiastas de la física resolver problemas y realizar conversiones de manera rápida y eficiente: **https://cbtis202.armsoluciones.com/Formulas.html**.
+
+Este repositorio es ideal para aquellos que deseen aprender más sobre MRUV, practicar con problemas prácticos y realizar conversiones de unidades relacionadas con la física. También es un recurso útil para profesores y educadores que busquen herramientas interactivas para apoyar el aprendizaje de sus estudiantes.
+
+El proyecto **"MRUV"** consistió en la **creación de una página web con el objetivo de aprender física y que calculara el MRUV**, específicamente el Movimiento Rectilíneo Uniformemente Variado (MRUV). El proyecto lo hice como parte de un desafío en una clase de programación durante mi etapa de preparatoria.
 
 ## Estructura
 El código está estructurado en tres partes principales: **las funciones de cálculo y conversión**, el **formulario HTML para ingresar los datos y mostrar los resultados**, y los **estilos CSS para dar formato a la página**. **Las funciones de cálculo resuelven problemas de MRUV** y **las funciones de conversión transforman unidades**. El formulario permite al usuario ingresar los datos y muestra los resultados. Los estilos CSS dan apariencia y diseño a la página. En general, el código es interactivo y facilita el aprendizaje sobre MRUV y conversiones de unidades.
@@ -49,4 +54,4 @@ El estudiante ingresa el valor 10 en el conversor de minutos a segundos y hace c
 
 En resumen, el estudiante puede usar la página web creada con el código para resolver problemas de MRUV, obtener resultados instantáneos y también realizar conversiones de unidades relacionadas con la física. La página web facilita el proceso de aprendizaje y cálculo en este tema específico.
 
-https://clock-of-life.netlify.app/
+Proyecto personal adicional para hacer consciencia del tiempo: https://clock-of-life.netlify.app/
